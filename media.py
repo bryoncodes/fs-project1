@@ -11,12 +11,11 @@ class movie:
     string with url to trailer on YouTube
     list of strings of actors
   """
-
-    def __init__ (self,title, art_url, trailer_url, actors):
-        self.trailer_youtube_url = trailer_url
-        self.poster_image_url = art_url
-        self.title = title
-        self.actors = actors
+  def __init__ (self,title, art_url, trailer_url, actors):
+    self.trailer_youtube_url = trailer_url
+    self.poster_image_url = art_url
+    self.title = title
+    self.actors = actors
 
 # instantiate some movie objects
 m1 = movie(
